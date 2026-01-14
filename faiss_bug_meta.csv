@@ -1,0 +1,843 @@
+bug_id,summary
+1871965,Performance down by magnitudes on certain SSDs or ports
+1901399,Test Bug
+1915161,SourceTree crashes shortly after launching application.
+1691981,Crash report
+1545276,Prueba
+1915872,broken link
+1929679,Unable to know if the time is AM or PM
+1930475, Authentication failed when attempting Fetch command
+1929794,Keesp Asking for GitHub Login
+1930057,OAuth token keeps expiring
+1929802,Unable to start SourceTree after updating from older version to 3.4.12
+1929745,Dark Theme - history changed files not displayed correctly
+1886320,Sort remote repositories
+1929231,"Fix for  Git Buffer Overflow - CVE-2022-41903, CVE-2022-23521"
+1918101,Upadate embedded Git binary and create new release
+1918662,Failed to start after windows update
+1918621,History view column sizes madness
+1834454,Error at cloning Repository 
+1916615,Failed update from 3.4.9
+1915672,Unable to log in to Sourcetree
+1915559,"App freezes and displays """"Not Responding"""" in titlebar constantly"
+1915503,添加大量文件后，SourceTree会长时间无响应
+1915373,Sourcetree crashs soon after start
+1912890,Left zone of Sourcetree - Workspace - List Branches scroll top after refresh
+1913568,Pull & Push now fails after Atlassian Logon window opens on SourceTree push
+1910669,Diff Panel not showing the changes
+1834928,graphic artifacts
+1483449,Affected versions for SourceTree for Windows are not up-to-date in Jira
+1912401,Sort remote repositories dropdown list items
+1912454,$FILE expands to file name different than selected in Custom action
+1912452,Maximized SourceTree window covers taskbar when hidden taskbar is on the left of the screen
+1911101,Diff view does not show for mercurial repositories
+1912126,Error when creating pull request from SourceTree
+1911051,Sourcetree reproducable fails for a basic use case (open working directory)
+1910930,Upgrade from 3.4.9 failing.
+1909400,"Wrong translation for """"branch"""" to Italian"
+1910183,SourceTree crashes trying to clone any repository
+1909702,Update SourceTree for Windows from 3.4.10 to 3.4.11 fails
+1904641,Can't start SourceTree after updating to 3.4.10
+1904640,Error when updating to 3.4.10
+1902692,No update
+1904227,SourceTree not showing the diff just says 'select a file to view the diff'
+1904133,Digital Certificate validity period has expired.
+1903515,SourceTree 3.4.10 seems to be positive to AgentTesla
+1903875,Interactive Rebase window keeps resizing itself
+1903861,Signing Certificate has expired
+1472897,test for 
+1903484,Cannot upgrade from 3.4.9.0 to 3.4.10
+1902927,Sourcetree installer Failed to start System.Management.ManagementException: Invalid class
+1902271,Sourcetree Support Website links to Mac version of suggestions and bugs
+1901971,Update fails to Sourcetree 3.4.10
+1901398,Source Tree Application Crashes on Opening
+1901099,Source Tree Application Crashes on Opening
+1901170,Sorcetree not installing 
+1900797,Cannot update Sourcetree to 3.4.10
+1900913,Update to 3.4.10 fails with 'Method not found' exception
+1900643,Pull button is causing issue and unable to pull the other changes
+1875681,403 ERROR
+1900305,Wake up after sleep
+1877018,Repair stash External Diff when diff tool is custom
+1900219,Software update to 3.4.10 fails
+1900270,On-Prem DEVOPS repo wont connect. 
+1883302,Git Add Issue
+1834042,Userpics in commits
+1899796,Update to v3.4.10 fails
+1900035,Update does not work (v3.4.9 -> v3.4.10)
+1899685,Source Tree install fails
+1899793,Update from 3.4.9 to 3.4.10 crashes and leaves sourcetree unusable.
+1899761,Update impossible 
+1868380,Sourcetree for Windows crash after a few seconds.
+1899369,Upgrade 3.4.10 fails - Windows 11
+1899673,PortableGcmSt.7z
+1899663,Update from 3.4.9 to 3.4.10 fails
+1898881,Error MessageBox do not shown when there are conflicts during git cherry pick
+1897908,Cascadia Code - Selected font weight ignored
+1885222,SourceTree constantly displays login pop-up when user attempts to perform an operation
+1897907,"""""Log Selected..."""" should specify the selected revision on the command-line as well"
+1897316,[3.4.9/Mercurial] 'Push changes immediatly to default' is always grayed out.
+1897094,SourcetreeApp.com web site points to wrong version
+1896685,Update from 3.4.9 to 3.4.10 crashes
+1896100,Window position is restored higher than when it shut down
+1834416,Sourcetree crashes when trying to pull a repository (after  being recognized as a valid git repository)
+1885438,Sourcetree on my laptop cannot recognize my github repository when I try to clone. Works on windows 10 pc but laptop is windows 11. All settings are setup the same but it wont recognize the url and wont show up in organization repositories.
+1894142,Useless popup keep coming back HEROKU login
+1895636,Can't download latest update
+1895224,Bad line length error since latest Sourcetree update
+1895214,there is a fake 3.4.10 version Sourcetree
+1895082,Resolving Conflicts for Multiple Files Only Resolves the Top File
+1885413,Putty.exe and plink.exe certificate expired
+1894288,Authentication Error in stash (Bitbucket Server)
+1894035,Dropdown for Organization Repos is blank
+1893948,Update from 3.4.9 beta to 3.4.10 beta fails
+1887754,Context menu text not visible in dark mode
+1893287,SourceTree crashes on startup
+1893214,SourceTree pushing to remote repo using embedded Git stuck on adding server's rsa2 fingerprint
+1892831,git mv command is not working properly for folder renaming
+1890790,"Staging modified file with name too long, is removing the file (git system)"
+1887933,Internal tabs don't align to tab stops in diff view
+1850269,SourceTree Windows app crashes while cloning if GitHub repo is empty
+1887753,Context menu text not visible in dark mode
+1886994,Cannot push changes to branch.
+1886575,Custom actions != command line
+1886509,Crash when clonning repo
+1886460,[3.4.9] Random crashes while starting a new gitflow feature
+1886410,Cannot Clone Repo
+1885928,SourceTree should trust internal CA that are available at the OS level
+1885767,Unable to use System Mercurial on Sourcetree for Windows
+1884072,Source closes itself whenever trying to add new account or clone new repository
+1882524,Support CR as a line break in diff views
+1879864,Cannot push after upgrading
+1882360,Sourcetree Logon failed on Windows
+1882003,Sourcetree not updating with remote repository
+1881679,Sourcetree 3.4.9 Crashes Immediately and Doesn't Install (Windows 10)
+1881746,Remote repository search not working when Project Key is not part of a Project name
+1881480,Sourcetree 3.4.9 Crashes Immediately and Doesn't Install (Windows 10)
+1881252,Nonenglish encoding display error
+1696166,Remote Crashes Application
+1878221,UX
+1879530,cloning repo on GitHub using personal access token PAT
+1857456,Selected commit being reset when dragging SourceTree to other display
+1878887,Local Repos cannot be organized if in Folders in Sourcetree window
+1877135,Potential 7z.exe vulnerability CVE-2022-29072
+1874203,Sourcetree keeps crashing 
+1874901,"Toolbar: After rebase children in source tree window and after that 'git push -f' CLI, +1 notification appears for both push and pull"
+1874921,SourceTree 3.4.8 keep crashing
+1874475,Copy Paste from History takes ages
+1868668,source tree closing when adding new clone
+1874065,Can't clone repository
+1873753,"Jump to """"History"""" after each commit?"
+1873612,CVE-2018-1002206 (SharpCompress.dll)
+1872036,Git-LFS Not supported
+1869675,Keeps losing credentials
+1871170,SourceTree Shortcut Start In path invalid
+1870189,Log Selected Fails to show and causes full crash
+1869787,Cannot open multiple repos with same name
+1868977,Clone Remote - Failure to validate/accept remote repository path
+1869099,Branches are no longer fetched with my remote
+1868560,Sourcetree Update broke authentication
+1868462,Tries to open xaml files with internet explorer
+1868423,Cannot update embedded git to v2.35.2 on windows sourcetree v3.4.8
+1867785,Remote repositories are not listing all repositories
+1867531,Automatic refresh OAuth token
+1857091,Default for Production branch in GitFlow should be main not master
+1857324,"Old version of Pageant included with SourceTree 3.4.7, causes key loss"
+1864175,Cannot add custom action
+1867624,App crash trying to add existing repo
+1866857,Force Push does not work anymore
+1866497,Windows context menu colors for dark theme
+1865997,Can not clone bitbucket Repo
+1865985,Untracked branches cannot be pushed
+1865846,Wrong Base64 Encoding - Sourcetree Authentication failed if password contains special characters (§ and german umlauts)
+1865107,Checkbox 'push changes immediately' is greyed out and cannot be activated
+1864998,Push screen does not show tracked branches
+1864920,"App passsword works to get project list, but not read remote directory"
+1829721,Graphics issues when mousing over the interface
+1864636,Can't clone Bitbucket private repo on sourcetree
+1791534,【crash】Cloning a newly created Gitlib project without branches or files sourcetree will crash
+1864369,Tabs are not show when restart SourceTree.
+1864105,Cannot execute Sourcetree after install...
+1864135,Push extremely slow
+1863896,Window starts halfway out of the screen (multiple screens)
+1863902,Bitbucket Oauth and Basic Authentication Not Working After Following Resolution Steps
+1863764,SourceTree - closes soon after the application starts.
+1861981,Custom Action Bug happened between version 3.4.5 and 3.4.6 (trusted_tester)
+1863503,Resolve Conflicts -> Mine/Theirs when popping from Stash both confirm commit id of last commit
+1829069,"Buttons getting disappeared.. while I hover on commit,pull,fetch,stash.."
+1863244,App Password is not working for an overseas user
+1858740,Exception while tracking LFS extensions
+1856992,"OAuth Fails, Unable to get Secret"
+1855913,SourceTree Windows app crashes upon launch
+1855509,Launch SSH agent fails code -1 with system git and OpenSSH
+1855057,case sensitivity
+1854630,Failed to list repositories for user [xxxxx]
+1854676,Sourcetree error: Too many invalid password attempts. The requested URL returned error: 403
+1854452,ssh-agent.exe taks to much CPU
+1853496,Force push on repository with submodules does not work
+1854027,Local Repositories  Bookmark Bar does not refresh
+1852274,Clone crash when I put URL with SourceTree V3.4.7
+1841594,git.exe fsmonitor process did not exit after close sourcetree 
+1838232,Source Tree is Crashing without any message while cloning remote repository.
+1743120,Not able to clone git repos
+1837464,Errors During Installation
+1794308,Source Tree for windows - v3.4.5:  security Vulnerability CVE-2018-1285 for log4net
+1850264,Cloning Bitbucket Server Repo via HTTP crashes SourceTree app
+1846787,Source Tree overlapping Taskbar Windows 11
+1849451,branches checked out in different worktree not shown in the left panel
+1847394,Stashes diff view only show one file
+1847212,SourceTree does not start (as.atlassian.com)
+1846087,Accounts for remote repo fails to connect 
+1845502,"can not access repositories, authentication always fails"
+1832394,unable to use sourcetree
+1845162,Authentication Failed - Unable to resolve
+1844069,http.proxy set to www.google.com:80 when set proxy to OS default
+1843397,Failed to start (System.BadImageFormatException)
+1843575,Bug in listing bitbucket repos
+1843552,Spaces in File path of Custom Action
+1841571,Crash when clone remote EMPTY (private) GitHUB repository
+1821625,Cannot login during app start - webpage is down
+1839311,Sourcetree crash on startup
+1841166,Log 4j vulnerability
+1839667,Sourcetree Graphics Problems
+1838827,Sourcetree Stop during Clone -> advanced setting 
+1838204,Multiple keys with same alias.
+1836788,Folder icons for Local repositories overlap text
+1836019,Cannot Remove Keys from SSH Agent
+1832573,"In Windows 11 environment, minimizing the program and maximizing the program again will cause the page to crash"
+1835788,Versionstring not update after auto-update
+1835623,Denial of service when cloning an empty git repository
+1835814,Cloning a repository that doesn't contain any branch and commit crashes the app
+1834134,SourceTree crashes while trying to clone empty repository
+1833836,Update-Dialog unreadable in Dark-mode
+1833401,SourceTree doesn't open nor reinstall (after Windows 10 Update)
+1832543,Choosing resolve using mine asks me to confirm that I want to resolve using theirs
+1832257,V3.4.6 crashes in Clone dialog
+1771391,Maximized window under taskbar
+1831238,Issue with local repositories and tabs at startup
+1831765,Issues when trtying to Authenticate. 
+1821769,Sourcetree does not let me push to remote branch from by local branch
+1831057,Issue with local repositories and tabs at startup
+1823094,Unable to stage files or trunks when accented letters are present in the code
+1818946,"Track of """"Clean"""" files doesn't work"
+1803818,Sourcetree crashes
+1813999,Commit button will not commit when adding a file
+1815158,Text unreadable on password edit dialog in dark theme
+1813934,Crash on editing remote
+1804441,"Stash + """"Keep staged changes"""" does not keep changes"
+1797993,Sourcetree is shipping outdated putty binaries
+1796529,Can't install sourceTree v. 1.9.13.7
+1797319,End the program when cloning from empty remote repository.
+1797740,Move existing tag always fails with error
+1796718,Open local repository by drag & drop does not work since 3.4.2
+1796222,"Context menu options disappear, font is blurry"
+1795802,Checksummed file size doesn't match during update
+1791529,【crash】Cloning a newly created Gitlib project without branches or files sourcetree will crash
+1795162,Checksummed file size doesn't match during update
+1794394,Checksum error on update
+1758415,Sourcetree constantly asks for GitHub credentials
+1794578,"Unable to Run/Re-install Sourcetree - """"Sourcetree has stopped working"""""
+1788469,Dictionary file blocks Sourcetree 2.3.1 from starting up
+1780199,Identification
+1776784,Context Menü on Files very unresponsive when LFS is activated on Repository
+1776739,Resolve the problem with github OAuth authentification
+1747166,Yoshi test
+1776924,GUI glitch for many buttons
+1773074,SourceTree Auto off
+1775823,Closing a branch with one commit does not create a new commit
+1770194,Latest v3.4.5 does not pull any remote tags
+1773130,We use virustotal find sourcetree 3.4.5 has Trojan Horse on it
+1770889,Remote option in source tree not working when click on that your windows source tree application crash 
+1457969,"Source Tree External difference comparison, no response。"
+1770958,Force push fails silently
+1631956,Push popup has no branches listed and does not allow to proceed
+1770603,"Patch-based staging (hunk, line) fails for non-UTF8 encoded files"
+1738355,Data 
+1770826,"Application crashes silently when opening a local repository, while running without admin privliges"
+1479737,Sourcetree Log keeps complaining
+1770381,SourceTree does not offer branches for pushing
+1770350,git log failed
+1770069,When do you update Putty?
+1770333,"When I try clone my repo, the sourceTree crashed and closed"
+1747168,"Dream It, Be It 2022"
+1770320,"Unable to merge with GUI when the merge source branch name contains """",""""."
+1770096,Commit message window resets
+1770099,"Amend commit: """"Replace commit text?"""" dialog bug"
+1770073,Can't push to github after access token changed
+1770062,After setting my git account in sourcetree i am getting no unix socket support while pulling branch code
+1480413,Adding extra characters after commit
+1768542,Jump to commit by commit Id doesn't work with upper-case commit Ids
+1769546,Support multiple SSH keys
+1769545,SSH passphrase times out
+1766340,Scroll amount in tab bar.
+1769163,Files deleted after performing update of multiple files
+1768378,Gitflow Not Supported
+1768746,"Add repository by path doesn't normalize slashes making """"Open in Explorer"""" not to work"
+1768917,"Modal dialog gets stuck behind main window, making program unusable"
+1461536,Upload to confluence is broken!
+1768529,Sourcetree will not start beyond splash screen
+1768291,Git LFS not working when file locking option is set
+1768220,SourceTree - Settings/Preferences not saved
+1744395,SourceTree display error
+1767902,"Make SourceTree reference the in-repo """"icon.png"""" in a way that allows deleting the file"
+1767856,Spaces and tabs in diff views are displayed in the wrong position
+1767910,SourceTree 3.4.5 crash on RepoHandlerGitOld.GetDefaultBranch
+1767501,Failed to reverse merge commit
+1749772,Backgroud refresh task cause mouse no response
+1680038,"Crash on """"Show In Explorer"""""
+1767425,SourceTree crashes when cloning a repository from BitBucket
+1767194,AskPass.exe error
+1766999,Crash when changing diff font size
+1766786,sourcetree version 3.4.5 is bundling outdated pageant 0.70.2
+1766763,Azure Devops auth not working
+1766148,Force push setting is reset during upgrade 3.4.4 -> 3.4.5
+1406049,"Context menu """"Open"""""
+1765879,"After updating, system git no longer works with sourcetree"
+1755071,Source Tree not getting started
+1765341,support new format of PuttyGen Release 0.75
+1765648,Commit log textbox problem with new version IME for Japanese
+1765083,Show in Explorer reopens existing folder
+1764613,Failed to check login for user
+1753658,When changing Branch working tree files do not refresh
+1763524,Push refspec not honored
+1758495,Local branch does not appear in push dialog box
+1758886,"Bug in the display when doing the """"git flow finish feature""""."
+1757056,Ignore file patterns diff option does not work for untracked files
+1757009,Unable to remove submodules that located at folder which contains space
+1756796,SourceTree doesn't list local branches with underscore '_' as Tracked 
+1756847,"An """"Open Termial"""" button fails for git bash [git-scm 2.31.1]"
+1754501,"Sourcetree sees changes after fresh """"git clone"""" on WSL"
+1754003,Global Author details do not update after closing Options
+1753530,"After changing Bitbucket password, Source tree is no longer syncs with remote branch. "
+1744092,3.4.3 Won't Install
+1753064,"Files disappear in """"staged files"""""
+1752675,Staging files deletes them instead if main working tree is not in default location.
+1747580,  Registration form: unclear error message when registrted new user
+1738272,Application crashes when...
+1752674,SourceTree crashes on startup for multi-user / RDP environments
+1750990,SourceTree not working
+1751607,Opening and closing Sourcetree causes Pageant to crash/close
+1750240,make branch first time not show
+1750632,Squashing With Previous ignores the last item in the list
+1749510,sakila
+1749414,Pending filter in File Status view does not show newly added and modified files
+1748013,Invalid Username & Password error while pull or push on the source tree
+1696674,Sourcetree rebase interactive is broken in 3.4.0
+1747292,Cannot push with force 
+1742555,ssl cerficate
+1726462,Failed stage lines
+1741794,Cannot open a terminal when system git is enabled
+1682518,Same name of repos
+1740957,Remote branch name resets to empty string when select for pushing the first time
+1726451,Cannot unstage hunk
+1740777,Github Login required despite no repository or login of github used!
+1740524,Sourcetree erroneously closing pageant on exit
+1739175,Terminal no longer opens
+1738147,Embedded PuTTY replaces running instance of PuTTY
+1737590,cannot resolve conflicts on changed files with removed files from master branch
+1702738,Changing the remote repository path of project causes SourceTree to crash
+1717278,100% Disk usage
+1737043,Sourcetree on exit terminates pageant process while it should not
+1736869,Git Bash cannot be opened anymore with Git 2.31
+1735836,Can't find correct git.exe path
+1719263,Remote not detected after username & password keyed in
+1735131,External merge does not work in windows sourcetree
+1726709,RepoHandlerGitOld.NeedsLargeFilesPull incorrectly returning true for files reported unchanged by LFS
+1653029,"The tab name for the cloned repository overruns the close, 'x', button."
+1726623,Impossible to access to the Remote Account page
+1720298,Sourcetree closes on Cancelling the checking out branch from browser
+1632226,Scrolling block
+1724906,Application crashed while selecting files to stage
+1722637,Sourcetree shuts down foreign pageant process
+1724779,Cannot browse/switch to system mercurial
+1721118,SourceTree Crashes if launched by a non-admin while another user is running PAgent
+1718756,Subwindow drap and drop can not be dropped at any position in File Status and History tab for notebook screen proportion
+1702627,Unable to create pull request
+1720533,Unable to checkout to a local branch. 
+1723225,RCE via git-lfs in Sourcetree for Windows - CVE-2021-21237
+1722387,spell check of commit messages does not work
+1721095,Sourcetree closes pageant on exit even if it hadn't been started by Sourcetree.
+1696699,Interactive rebase show an empty GUI 
+1716815,3.4.3-beta-1 issues
+310663,Changing the remote repository path of project causes SourceTree to crash
+1716245,Code selection copy in Commit history view makes app unresponsive
+1715147,Intermitent GitHub/GitLab login window is shown
+1714554,Launch SSH Agent should display correct state
+1714552,Sourcetree freezing on being left in background  
+1697122,Dark mode still have some popup menu in Light background causing the text to be invisible
+1689968,Пролонгация сертификата на портале
+1714403,v3.8.8 - Local repository list freezes when scrolling is needed
+1714056,Optional extended integration settings of remote are not saved across SourceTree restarts
+1714128,Application get crashed while clicking on edit button in remote settings 
+1713358,Buffer overflow with git shell 
+1711292,'git lfs pull' called everytime when starting Sourcetree or opening a repository in a tab
+1713119,Unable to create pull request
+1712370,Cannot fetch or pull on Sourcetree for windows
+1711654,checkout-existing” option isn’t working with 3.3.9 version of sourcetree as the remote repository details are not being fetched.
+1711540,Can't create a pull request
+1711487,Different branch folders are merged anyway
+1711155,SourceTree insists handling a specific repo
+1708468,Custom action parameter $BRANCH not always properly replaced
+1710826,"SourceTree disappears when using """"Checkout in Sourcetree"""" link from Bitbucket"
+1710153,Not able to clone repos from bit bucket using source tree
+1709448,"""""Run 'git lfs pull' now? is triggered on every startup"
+1707128,Unable to clone a repository
+1705917,"Launching SourceTree getting""""Run  'git lfs pull' now"""" prompt"
+1704384,SourceTree Returns Incomplete & Inaccurate List of Repositories from Bitbucket Server
+1703782,Sourcetree asks to select a Credential Helper and doesn't clone
+1703457,Prompted to download GIT LFS everytime I open SourceTree 3.4.2
+1703738,Sourcetree crashes upon cloning a repository
+1703469,External difftool extremely slow
+1618502,I am not able to sourcetree with my repository(Azure) 
+1702925,LFS file download prompt every time I launch Sourcetree since update to v3.4.2
+1702398,Troubles accessing REMOTES/origin
+1701239,git-svn support does not work
+1700596,Rebase children of <commit> interactively... no longer works as before
+1697214,Sourcetree v3.4.0 interactive rebase window is empty
+1700358,RCE via git-lfs in Sourcetree for Windows - CVE-2020-27955
+1699356,Unable to create pull request on bitbucket server 
+1698758,Remote project configuration error when creating a Pull Request after starting app
+1681108,Modificar Medico
+1698793,Problems with Bitbucket Server Integration in Sourcetree Enterprise
+1698742,Unable to Open Web Browser Error Message
+1697749,`.git` folder DELETED on crash
+1697266,Interactive rebase fails
+1695452,Unable to retry auth after bad password entry (LFS?)
+1691550,Source tree 3.3.8  massive performance issue
+1693598,Automatic refresh cannot be disabled
+1692365,Can't clone repository on Windows
+1694103,Sourcetree keeps crashing on Windows
+1688678,Sourcetree crashes on launch 99% of the time
+1693663,File Contents of renamed files only shows new file in Diff Against Current
+1692959,SourceTree doesn't remember Remote project configuration after restart
+1692719,Freeze/hang when scrolling file diff
+1691639,PATH environment setting is not working from the Bash console opened by the Terminal menu
+1689913,Cannot pull changes 
+1689695,When looking closer at the available seats the screen may stop scrolling in the expected way
+1688513,Can't login to bitbucket so I can't use the software
+1688797,"Git - Enabling """"Push all tags to remotes"""" will cause Push to never finish"
+1687866,'Keep staged changes' checkbox doesn't work when stashing changes
+1687455,crash
+1687376,Pull requests are not shown for packages. Source Tree Windows Version
+1687017,External diff on logged file opens diff for selected file in repo
+1686186,Global ignore file not working on Windows 10
+1683100,Continue rebase fails
+1682805,config file sourcetreeconfig.json is reset after each start of sourcetree
+1476199,Staged files view does not update after adding files
+1681106,Crear medico
+1653817,GitHub repositories are not showing in Remote repositories
+1641079,Sourcetree auto suspend on Windows 10
+1681168,Whenever I start Sourcetree I get a tiny Pageant credentials dialog
+1677414,Source Tree unable to recognize deleted Brunches by other tool
+1676499,New files only shown when unstaged set to Clean or All
+1673893,It will always add user document to tab when open the process
+1675740,Sourcetree hangs when I mousewheel on the diff. area on the bottom right corner
+1675734,Typo in German translation for pulling a branch
+1675717,cant add more than one Azure devops account from 2 different emails/users - wrong user is sent through
+1473832,Stages and Unstaged files area is not getting updated/refreshed
+1639749,Crash when closing Options dialog
+1653833,GitHub repositories are not showing in Remote repositories
+1670962,SourceTree starts then Closes - even after uninstal and remove local appdata - where is the list of connections its is trying
+1474246,Link to latest Windows version is broken on Atlassian site
+1560635,"SourceTree is not able to pull/push branches with / in the name, e.g. release/2020.05"
+1617941,SourceTree freezes when scrolling down
+1669989,SourceTree crashes after checkout of a BitBucket Repo in SourceTree
+1667116,Tags that contain commas are cut off in the Sourcetree History View
+1666544,Subtree Dissappears from Stash after Reopening Sourcetree
+1662749,Error message for failing conenction does not have enough info
+1633228,commit time in 24h format
+1660003,Wrong link on report a bug form
+1665605,Remote repositories search can't find some repos
+1663401,Sourcetree is freesing on large binary files
+1660942,If I upload new application version to the server there is an error
+1660008,Differing behavior - launching terminal
+1185767,Drag/drop of local repositories does not work correctly
+1622465,We need an offline Installer
+1472583,SourceTree: Commit screen is not refreshing as it was always do!
+1468727,Crash on checking out branch from browser
+1657261,Repository settings in optional extended integration with e.g. Bitbucket Server are not persisted
+1466783,Source v3.3.6 Refresh Issue
+1656837,Open remote - URL customization
+1652513,Source tree Version 3.3.6 on Windows 10 Professional hangs
+1656006,Crash on Edit Remote
+1651199,index.lock error when Visual Studio is opened
+1638595,Unable to resolve conflicts using source tree v3.3.9
+1648950,Git tutorial bug
+1646970,Sourcetree keeps asking for password for bitbucket.org
+1646163,SourceTree crashes every time I try to do a Checkout from Bitbucket
+1639616,Wrong items is suggested for deletion
+1636795,Scrolling to bottom of file content pane freezes program
+1633248,Unable to open Kdiff3 external tool to resolve conflicts
+1632674,Modal window for Create Patch not usable on smaller screens
+1632565,3.3.9.3870 version crash sometime when trying to open a Repository  from local repositories
+1631444,Line not fully visible in diff
+1630963,SourceTree 3.3.9 Windows Hangs
+1628869,Big problems with high refresh rate monitors
+1628540,Accessing Remote Account closes Sourcetree
+1473836,Auto Refresh stopped working
+1627730,Setting lost in repository settings dialog.
+1624538,"Push Changes immediately to field frequently becomes """"-"""""
+1622974,Calendar disappears while scrolling the page up or down continuously 
+1622062,Push ignores local branches that don't match a remote tracking branch
+1621675,Sourcetree crashes when remote repository is not available
+1619454,Popup window position
+1618047,Sourcetree deletes file if I do stage
+1616789,Popups flashes periodically with no contents
+1615241,Git submodules vulnerability in Sourcetree for Windows - CVE-2020-5260
+1608841,Cannot Launch Sourcetree
+1611390,Pushing a new branch gives a false eror messag about git ref-format rules
+1585229,Can't use authentication options
+1609318,Unable to clone remote repository
+1607516,Rebase children of <commit> interactively... doesn't work(Cyrillic letters in the path)
+1604032,"Баг в приложении """"Украинская железная дорога"""""
+1555539,Cannot register to SourceTree using my corporate account
+1603967,"Authorization in the user's account is not possible through the social network """"facebook"""""
+1600790,Can't push
+1603624,Remote local branch is not shown in push menu when more than 2 remotes
+1602300,Sourcetree registration fails
+1533321,Repositories not visible
+1601186,Remote Github repository search does not work
+1600392,Sourcetree - Aplicación se cae tras iniciar
+1600734,Sourcetree crashes after switching to Remote tab
+1588551,Cannot install Sourcetree for Windows v.2.4.8.0 on Windows 8
+1599661,Site performance is very low because image are large
+1599659,Site performance is very low because scripts are in the head of the site
+1599456,ssh agent overloading cpu
+1585081,Galaxy S7 - Envato Elements (Music tracks section) - Wrong translation (russian language)
+1561629,Force push crashes
+1597409,Staging in a shared submodule leads to deletion of files
+1595049,Unable to login Source Tree
+1593814,Sourcetree fails to install or open. 
+1592651,Custom actions not working
+1592805,Can't push branch to Azure Git
+1591764,I cannot log in to my Repository in Source Tree after Creating App password
+1473862,Auto refreshing no longer works
+1591483,"""""Check out in Sourctree"""" always tries to clone new and complains about missing details."
+1591480,"Sourctree closes after """"Checkout in Sourctree"""" button was used in BitBucket."
+1590047,Problem when trying setup sourcetree
+1589384,Remote details in a github repository settings don't get saved
+1587685,Authentication not working
+1584814,Add an Account in Remote Tab Opens Edit Hosting Account Window with Username in Ready Only
+1584384,Unable to open Web Browser Message
+1578758,"Unable to pull the new updates from the branch""""failed to aunthenticate"""""
+1564819,Crashes happen every now and then
+1574741,Can't rearrange bookmarks
+1545448,dark theme=> to be improved
+1574162,File status not updated automatically anymore
+1574007,Bug / Bad design: Why are branches not created?
+1571433,Failed Authentication after account setup
+1551295,Can't assign keystroke to custom actions in 3.3.8
+1564984,Multiple Failed Authentication causes lockout
+1561659,Search does not work with huge repo
+1563483,Repository is not opened if a tab with another repository having the same name already exists
+1563359,Timezones not used to display local time in commit summary
+1559949,SourceTree locks corporate Atlassian account when trying to clone repository from Bitbucket.
+1558556,SourceTree wrong focus after seeing console output
+1554797,Show remote branches renamed on checkout in push window.
+1551734,Source Tree Crash when add a new github account 
+1548734,Global Ignore List does not work.
+1545264,Sourcetree Commit is Not Responding 
+1542639,"In history view, move the current branch so that it is at the top"
+1542396,Authentication failure - Keeps attempting to authenticate on single request.
+1542006,"sourcetree intallation stuck at """"Authentication Successful"""""
+1538959,Allowed to commit/push with unresolved conflict
+1537258,No access to taskbar in full windowed mode
+1526807,https://bitbucket.org/aiqbankinc/tht-so-inc/raw/cdfd00c1dc80080926954fa09e506a711ac6698c/README.md
+1536465,Cannot install
+1536351,File Status - Tree View - Sort order lost on refresh
+1534037,Creating new branch does not create branch on remote
+1532134,Bad design: Uncommitted changes appear for no reason
+1513360,Remote Repos Filter not working
+1528684,Remove repositories dialog accumulates repository names incorrectly
+1531893,"Folders not properly posted, new scripts not consistently detected"
+1457371,How to set the font and font size of the submitted text box? Chinese fonts look uncomfortable
+1530126,Failed to check Login for user
+1529831,adding helperselector to config
+1529481,REGRESSION: Cannot create patch from working copy
+1525695,Remote Exclamation Mark although PULL and PUSH work
+1494219,Consume CPU More then 80%
+1517938,Sourcetree crashes when checking out branch in browser.
+1521868,Diff/Merge Fails with Beyond Compare 4
+1499099,Unable to use Sourcetree and downlod repository on second machine
+1520177,Authentication failed on BitBucket account in sourcetree
+1515643,SourceTree does not appear in Win10 Start Menu
+1514511,Sourcetree v3.3.8 is forgetting extended integration settings
+1512601,Opening a saved repository from context menu opens a different repository
+1511610,When sourcetree is maximised it interferes with the taskbar  
+1511255,Can't install sourcetree 3.3.8 on Win 7 64 bit and Win 10 64 bit
+1503579,Severe performance problem trying to review changes in text file with extension .xml
+1510788,Each restart of sourcetree resets the account in repository settings
+1510686,"After staging, close button does not respont to enter key"
+1503848,Unable to Start SourceTree
+1509842,incorrect recording when rotating the screen
+1509950,Bookmarks regularly lost
+1508806,Sourcetree v3.3.8 issue while check-out and cloning
+1508168,"Display problems of """"unusual"""" characters in main window diff pane"
+1505804,"Cannot get past """"Registration"""" step of installer"
+1508149,Checking out a branch from Bitbucket Cloud UI will freeze SourceTree WIN 3.3.8
+1503234,Instalation failure
+1502264,Unable to save sourcetree to computer
+1502248,Optional extended integration settings disappear on restart of SourceTree
+1501482,Cannot Load TimeZoneConverter when Linking Bitbucket Account
+1501595,"Open Selected Version does nothing, even though extension is registered with Windows"
+1501393,Source tree wrongly includes files when deleting file in unstaged files region
+1499257,When click in Bitbucket login open an Localhost URL
+1500505,Open console button doesn't work
+1499808,Failure to install and also failure to set install location
+1497870,"Cannot push branch other than """"master"""""
+1497697,Unable to login when installing
+1496315,Diff not working on UTF-16 LE files without BOM
+1494074,Clone Remote Repositories against Bitbucket Server does not find repos in projects whose name beings with period
+1487867,Not able to install sourcetree in my windows
+1493624,Newer Sourcetree versions use different API when gathering remote repositories from BitBucket Server
+1491338,Failed to force push 
+1491305,Git branch history does not update unless forced
+1489441,UI does not reflect current branch after changing
+1489208,stage and unstage not moving file to respective block
+1489367,Cant open two tabs with same name in different repositories
+1487285,Error in max allowed humidity percentage
+1489041,Sourcetree 3.3.8 doesn't install
+1484251,Cannot install - Authentication Successful - No next button
+1473915,When I stage files the windowd does not get updated
+1488355,"Diff isn't showing tabs correctly if """"show invisibles"""" is enabled"
+1487470,Version 3.3.7 for Windows forced to refresh for every action
+1487320,Error in the input field when the humidity indicator is from 50 to 100%
+1486407,Unstaged file shows 2 extensions
+1486656,Windows Defender SmartScreen prevented an unrecognized app from starting
+1485615,Automatic refresh breaks on the first repository tab
+1486290,"Log selected does not popup window but opens in background, seems not working."
+1484269,Not detecting the SSH keys and the application closes abruptly
+1469668,Sourcetree doesn't automatically refresh screen
+1486233,When using Submodules the main repository view is not updated automatically
+1485573,Sourcetree switches back to Generic Account on optional extended integration
+1484844,"Sourcetree GUI does not keep sync with staging, commits, branches, merges"
+1483955,Sourcetree Repos not showing up in remote tab
+1405752,When a commit message is too long it bug splats
+1483593,Show In Explorer Context Menu Always Disabled
+1476067,Custom actions no longer work v3.3.8
+1483475,crash on checkout by Bitbucket
+1483473,not saving remote login data
+1483446,Auto Update/Check For Updates updates only after many weeks/months
+1480504,cannt commit
+1482902,Repository does not get deleted as per selected in Local Repositories after filtering
+1482380,Finish Feature loosing Feature Name
+1482292,Remote connection problem
+1481587,Language change from default results in sourcetree not updating automatically
+1482036,Sourcetree for windows DOES NOT WORK for ALL VERSIONS after 3.1.3 with gerrit repositories.
+1480831,Discard Lines bar is not sticky anymore
+1480340,Not a valid Source path/URL
+1479646,SourceTree doesn't refresh automatically 
+1478447,Installation does not create Start Menu shortcuts
+1477262,.gitignore включает основные файлы проекта в игнорируемые
+1478309,"""""Open in Terminal"""" button not working anymore"
+1477531,"Syntax highlighting is applied to """"No newline at end of file"""" notice"
+1477464,First tab never refresh
+1466794,Sourcetree (Win 3.3.6) Cannot Open Terminal
+1477463,Error pushing new branches
+1477251,Staged files are appeared only after click Refresh (F5)
+1476609,Branches are not displayed when sending.
+1477100,Sourcetree Windows 3.3.7 - staging / committing files is bugged
+1476412,Source tree will not refresh
+1475951,"Sourcetree created gigabytes of temp files while staging, committing"
+1474489,Tabs are not refreshed automatically
+1475380,Unable to clone GIT Repository
+1475163,Terminal no longer opens
+1474795,Stage selected button doesnt works
+1474581,Sourcetree for windows DOES NOT WORK for ALL VERSIONS after 3.1.3 with gerrit repositories.
+1473687,User interface doesn't respond
+1474568,[Regression] Source tree 3.3.6 does not open up repository if a repository with same name is already open in a tab
+1474396,file status is not refreshing
+1474297,Some Bug in v3.3.7
+1474371,Auto Refresh no longer working in 3.3.7
+1473700,"Калькулятор: перевірка робти, соя."
+1473702,"Калькулятор: перевірка робти, сарго."
+1442591,WTF ??? Not display branches
+1473698,"Калькулятор: перевірка робти термінал """"Миколаїв"""" Кукурудза"
+1473697,"Калькулятор: перевірка робти термінал """"Миколаїв"""" Пшениця 4 клас"
+1473696,Калькулятор скидок: невірні дані при розрахунку пшениці 4 клас.
+1473684,"Калькулятор: перевірка робти термінал """"Миколаїв"""" Пшениця 3 клас"
+1472940,Upgrade to 3.3.6 has major problems
+1472770,git log failed with code -1: Access is denied
+1447724,"trusted_tester , Bug UI"
+1472396,Warning on remote icon
+1413164,The adjustable border line between staged and unstaged sections is 1 pixel wide
+1470312,Sourcetree history does not update and UI does not update after you Stage files or do a commit on a second monitor
+1471639,file status screen doesn't automatically updated after update 3.3.7
+1472413,"Sourcetree version 3.3.6 (latest) - cannot update branches, stage files etc until force refresh"
+1470500,First tab custom name reverts to default after closing Sourcetree
+1472338,Didcount calculator unclear error message when entering letters into index field
+1468274,UI Refresh
+1472313,Failure to update display after operations
+1469273,UI Refresh Broken in 3.3.6
+1471543,Facing issues with Windows 10
+1470996,Azure Devops Account don't respect full url
+1470986,cannot update my sourcetree 3.2.6
+1471066,Staging and unstaging files no longer updates the views.
+1470782,UI not responding in 3.3.6
+1466174,Sourcetree cache images moved to recycle bin rather than deleted permanently 
+1468031,Very high CPU usage on entering a commit message
+1469230,Main Sourcetree window doesn't update automatically
+1466036,Can't use SourceTree or fully log in
+1469653,---
+1469643,Refresh not working at all (AFAICT)
+1468910,Issues with Sourcetree and Applocker
+1468762,Staging or discarding lines
+1468433,UI is not updated automatically v3.3.6
+1468170,Automatic Refresh Seems Broken
+1468068,Sourcetree (Win Ver 3.3.6) does not update its display after performing an action
+1468067,SourceTree unusuable after updating to latest ver (I'm on 3.3.6)
+1467339,Latest version does not detect changes in files
+1466891,Sourcetree file status is not refreshing
+1442516,test
+1467266,Terminal Is Not Opened
+1459972," download the application """"UKRzalіznitsya"""""
+1467260,SourceTree 3.3.6 Does Not Authenticate
+1467013,"After updating to 3.3.6, file status windows do not update after any action taken"
+1467061,uninstall windows version doesn't uninstall the code in /Users/../AppData/Local
+1467060,Views don't update after an action.
+1467038,Stage/Unstage failing to move files
+1467025,SourceTree User Interface does not refresh automatically in a fresh Win 10 install
+1466588,Cannot install SourceTree on windows 10
+1465594,Hunk section header color
+1466552,SourceTree W10 not refreshing GUI on any action
+1464525,"No Auto Refresh, Only manual refresh "
+1465365,Sourcetree did not start with the last Windows update 2019-KB4533002
+1464794,UI is showing out of date state
+1464004,installation and registration issue
+1463759,Sourcetree forgets the account type for a repository
+1463745,DigiCert Certificate Expired
+1463915,"Icon on Windows 7 isn't right, nor is shortcut"
+1461971,View not refreshing
+1463153,Operations require manual refresh (F5) to show updates in commit/branch panels
+1462357,Can no longer stage changes from working directory during Create Patch
+1459958,"App for Ios """"Железнодорожные билеты"""": Empty Cart after canceling payment"
+1460413,SourceTree hangs on pull or fetch
+1460447,Focus is lost on dialog buttons 
+1461785,Missing OAUTH scope
+1461681, incorrect recording when rotating the screen
+1461680,"""""Укрзалізниця"""" application: language issue"
+1461859,Укрзалізниця mobile application: ability to choose a month on 'Напрямок' tab disappears when trying to chose previous mounth
+1461635,Automatic Refresh on File Change is Not Working
+1460006,Sourcetree crashes if local git settings are invalid
+1460182,Update Embedded is not downloading the latest Git For Windows release
+1450715,Auto Refresh doesn't work when files are changing (Version:  3.3.6.3829)
+1460047,Mercurial HG doesn't work anymore with version 3.3.6
+1459950,"App for Ios """"Железнодорожные билеты"""": Empty Cart after canceling payment"
+1459942,"App for Ios """"Железнодорожные билеты"""": Empty Cart after canceling payment"
+1436786,Finish hotfix didn't merge to develop
+1455741,SourceTree often converts repository remote from BitBucket to Generic
+1420836,On push not select baranches
+1459423,"Issue while install process, logging with Bitbucket account"
+1438251,Git not found error
+1458257,AskPass error dialog (0xc0000142) keeps popping up over other apps
+1458164,Feature can't be closed from git-flow
+1435922,can not select any brance when git submit
+1457972,SourceTree does not open
+1456951,Application slows down and eventually crashes when not shut down for a couple of days
+1456738,Custom Actions is not working when set parameter multiple
+1454783,Unable to update the source tree version
+1456554,Terminal button (and menu) fails to open Git Bash
+1452188,SourceTree installation
+1456319,Commit text Links are reset when opening SourceTree
+1455742,Sourcetree crashes when using URL Action
+1455714,SourceTree forgets my bitbucket authentication
+1455423,Sourcetree Install and Registration windows does not advance to next screen
+1454787,Unable to push to github org account from sourcetree
+1454596,Permanently loosing repository configuration 
+1452996,Code signing timestamp is missing from SourceTree v3.2.6
+1454532,SourceTree installer fails in Windows 10 as signing certificate has expired (and corporate policy requires valid certificate)
+1432318,Sourcetree crashes after update
+1453930,Empty local branch name when pushing new branch
+1453507,Error when using check for version functionality from the optons  menu
+1453519,unable to use sourcetree to upload local programming into bitbucket
+1453204,Remote Account Type Reverting to Unknown
+1443406,Remote (Host Root URL) is not being saved and displays error
+1453124,Application isnt showing changes in dark mode.
+1452924,100% load on one core when typing commit message
+1452074,Push dialog empty
+1451799,Provide Re-Authentication window when push return access denied. 
+1417868,On push not select baranches
+1447533,Commit text links are lost when closing and reopening app
+1451766,Cannot select multiple branches
+1451263,Crash when attempting to initiate Gitlab-EE pull request
+1449317,"After click menu item """"Copy Path To Clipboard"""" app hangs on several seconds"
+1450944,"Endless """"Loading x commits to reach commit y"""" when filter is on"
+1449726,Cannot open local repo when repo is a submodule open in another tab
+1447168,"Application Crash When Using """"Checkout In SourceTree"""" from BitBucket Server"
+1446284,Selecting of train direction: black rectangle after confirming empty field in destination search
+1420981,SourceTree (current Version on 2019-10-10) shows number on tabs without any reason
+1446136,SourceTree not showing Bitbucket repositories
+1445912,Bug found in sourcetree 3.2.6
+1445607,"Lack """"go back"""" button in """"Return tickets"""" form"
+1445528,All Branches / Current Branch Dropdown doesn't remember choice
+1444053,Taskbar not accessible when SourceTree is in full screen
+1444846,Always update repository github address when launch sourcetree
+1431925,Push to form is committing to master repository
+1444632,Ошибка данных 2
+1444631,Ошибка при вводе данных
+1444629,Калькулятор скидки: Не верный рассчет
+1444727,Калькулятор скидки: не правильный расчет.
+1443379,Text cursor disappears in commit message text area
+1442712,ver 3.3.4  Can not Push new Branch unless I check/uncheck/check again the Branch to get the Remote name filled
+1442187,Not able to login in IE 11 version on id.atlassian.com
+1221809,Unable to add Azure DevOps Remote Account using SourceTree 3.1.3
+1440466, out of ram with help of Git Credential Manager for Windows
+1440159,Remote account reset at every restart
+1439144,Error message when creating pull request (v3.3.4)
+1437707,Upgrade SourceTree not possible if proxy is configured but not available
+1437527,Couldn't push the Git-flow generated branches.
+1436087,can not select any branch when git push
+1437436,Custom Actions sub-menu missing from context menu in Sourcetree 3.3.4
+1437224,Wrong translation
+1436112,Not able to check out remote branch with pipe (vertical line) character
+1435827,UI completely unusable due to delays in rendering code
+1435680,Launching a second instance of Sourcetree crashes
+1435576,Can't use sourcetree because of space in user name
+1435179,Remote connection not working
+1435031,Default Web Browser Not Recognized - Source Tree
+1431350,SourceTree Login in after Installing on Window 10 is loading for ever.
+1434394,Bug Splat on commit
+1434207,"After commit, the file that I want to Push disappears"
+1432834,Version 4.0 breaking Dark Mode switching
+1431651,This is not a valid source path / URL
+1431310,Remotes are no longer refreshing automatically
+1430837,Push Branches option update is not saved.
+1423119,Can't access bitbucket using sourcetree
+1427155,"Branches, tags, remotes hard to read in high-contrast mode"
+1429762,SourceTree CAPTCHA Error
+1420982,"Numbers on tabs, but nothing to pull or commit/push...?"
+1428970,"""""Железнодорожные билеты"""" incorrect functionality of """"Mail to"""" option"
+1407769,Problems when pushing and pulling
+1428966,"""""Железнодорожные билеты"""" non swipeable tabs in """"Билеты"""" app option in IOS version "
+1427773,"""""Железнодорожные билеты"""" incorrect functionality of """"Mail to"""" option"
+1427768,"""""Железнодорожные билеты"""" non swipeable tabs in """"Билеты"""" app option in IOS version"
+1427338,Unreadable text in high contrast mode
+1424638,The History Search Is Almost Worthless
+1422813,Special Unicode Character in Filename
+1422148,Tank's fire function is not working when you standing in left bottom corner
+1420880,"""""Refresh automatically when file changes"""" and """"Refresh when application is not in focus"""" doesn't work"
+1420634,CAPTCHA ERROR
+1419912,Hidden scrollbar on the History tab
+1419179,Custom Actions broken in Beta-3.3.0-3678
+1417860,Can't use both $ SHA and $ FILE in custom actions.
+1410755,Cherry-pick does not provide an option to push the commit
+1419020,Remote Repositories List Empty (Bitbucket private server)
+1418883,External Diff not working anymore
+1417776,push error
+1417722,Sourcetree does not register local file changes
+1417248,Misleading popup dialog when amending commit
+1414418,Not able to connect Bitbucket server from Source Tree client 
+1413668,New branch through hg flow throws error
+1411131,Git flow not automatically branching from correct branch
+1409106,Code scroll not proper in horizontal way
+1408239,SourceTree ignores case on Branch name and pushes 'new' branch
+1408182,Custom chrome issue on hi-dpi screen
+1407410,ree view: folders partially selected should be ticked with a grey tick
+1407086,Push new branch to remote doesn't work
+1406858,Remote not showing private GitHub repos
+1406387,Not able to connect with AWS CodeCommit
+1406664,Sourcetree Windows app v. 3.2.6 keeps crashing on commit
+1406052,Double-clicking a project to open it moves the project from its current folder to “no folder” 
+1404853,Using external working directory causes staging changes to produces unpredictable results.
+1404925,Merge aborted unexpectedly
+1404820,SourceTree incorrectly reports that a file is not tracked for Git LFS.

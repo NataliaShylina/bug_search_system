@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bug Semantic Search</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 15px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #f2f2f2;
+            cursor: pointer;
+        }
+
+        input[type=text] {
+            width: 400px;
+            padding: 6px;
+        }
+
+        input[type=number] {
+            width: 70px;
+            padding: 6px;
+        }
+
+        input[type=submit] {
+            padding: 6px 12px;
+        }
+
+        /* ===== HEATMAP SCORE ===== */
+        .score-very-high {
+            background-color: #d73027;
+            color: white;
+            font-weight: bold;
+        }
+
+        .score-high {
+            background-color: #fc8d59;
+        }
+
+        .score-medium {
+            background-color: #fee08b;
+        }
+
+        .score-low {
+            background-color: #d9ef8b;
+        }
+
+        .score-very-low {
+            background-color: #e0f3f8;
+        }
+
+        .error {
+            color: red;
+            font-weight: bold;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>Bug Semantic Search</h1>
+
+<form method="post" action="/search">
+    <input type="text" name="query" placeholder="Wpisz zapytanie..."
+           value="{{ query }}" required>
+
+    Top K:
+    <input type="number" name="top_k" value="{{ top_k }}" min="1" max="100">
+
+    Sortuj:
+    <select name="sort_by">
+        <option value="score" {% if sort_by == "score" %}selected{% endif %}>Score</option>
+        <option value="bug_id" {% if sort_by == "bug_id" %}selected{% endif %}>Bug ID</option>
+    </select>
+
+    <input type="submit" value="Szukaj">
+</form>
+
+{% if error %}
+    <div class="error">❌ Błąd: {{ error }}</div>
+{% endif %}
+
+{% if results %}
+
+    <div style="margin-top:15px;">
+        <strong>Legenda score:</strong>
+        <span style="background:#d73027;color:white;padding:4px;"> ≥ 0.85 </span>
+        <span style="background:#fc8d59;padding:4px;"> 0.75–0.85 </span>
+        <span style="background:#fee08b;padding:4px;"> 0.65–0.75 </span>
+        <span style="background:#d9ef8b;padding:4px;"> 0.55–0.65 </span>
+        <span style="background:#e0f3f8;padding:4px;"> < 0.55 </span>
+    </div>
+
+    <table>
+        <tr>
+            <th>#</th>
+            <th>Bug ID</th>
+            <th>Summary</th>
+            <th>Score</th>
+        </tr>
+
+        {% for bug in results %}
+        <tr>
+            <td>{{ loop.index }}</td>
+            <td>{{ bug.bug_id }}</td>
+            <td>{{ bug.summary }}</td>
+
+            <td class="
+                {% if bug.score >= 0.85 %}
+                    score-very-high
+                {% elif bug.score >= 0.75 %}
+                    score-high
+                {% elif bug.score >= 0.65 %}
+                    score-medium
+                {% elif bug.score >= 0.55 %}
+                    score-low
+                {% else %}
+                    score-very-low
+                {% endif %}
+            ">
+                {{ "%.4f"|format(bug.score) }}
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+
+{% endif %}
+
+</body>
+</html>

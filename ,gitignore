@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Data
+*.mov
+*.mp4
+*.csv
+*.zip
+*.bin
+faiss_*.bin
+
+
+# OS
+.DS_Store
