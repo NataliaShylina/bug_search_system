@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bug Semantic Search</title>
+
+    <style>
+        body { font-family: Arial; margin: 20px; }
+        table { border-collapse: collapse; width: 100%; margin-top: 15px; }
+        th, td { border: 1px solid #ddd; padding: 8px; }
+        th { background-color: #f2f2f2; cursor: pointer; }
+
+        input, select { padding: 6px; margin-right: 5px; }
+
+        .score-very-high { background-color:#d73027;color:white;font-weight:bold;}
+        .score-high { background-color:#fc8d59;}
+        .score-medium { background-color:#fee08b;}
+        .score-low { background-color:#d9ef8b;}
+        .score-very-low { background-color:#e0f3f8;}
+
+        .error { color:red; font-weight:bold; margin-top:15px; }
+        hr { margin: 25px 0; }
+        .hot-bug-row {
+            background-color: #ffcccc !important; /* Jasnoczerwony */
+            border: 2px solid red;
+}
+    </style>
+</head>
+
+<body>
+
+<h1>🔍 Bug Semantic Search</h1>
+
+<form method="post" action="/search">
+    <input type="text" name="query" placeholder="Enter a request..."
+           value="{{ query }}" required>
+
+    Top K:
+    <input type="number" name="top_k" value="{{ top_k if top_k else 10 }}" min="1" max="1000">
+
+    Sort:
+    <select name="sort_by">
+    <option value="score" {% if sort_by == 'score' %}selected{% endif %}>Score</option>
+    <option value="status" {% if sort_by == 'status' %}selected{% endif %}>Status</option>
+    <option value="resolution" {% if sort_by == 'resolution' %}selected{% endif %}>Resolution</option>
+    <option value="summary" {% if sort_by == 'summary' %}selected{% endif %}>Summary</option>
+    <option value="priority" {% if sort_by == 'priority' %}selected{% endif %}>Priority</option>
+    <option value="sentiment" {% if sort_by == 'sentiment' %}selected{% endif %}>Sentiment</option>
+    </select>
+
+    Priority:
+    <select name="priority_filter">
+    <option value="all">All</option>
+    <option value="Highest" {% if priority_filter == 'Highest' %}selected{% endif %}>Highest</option>
+    <option value="High" {% if priority_filter == 'High' %}selected{% endif %}>High</option>
+    <option value="Medium" {% if priority_filter == 'Medium' %}selected{% endif %}>Medium</option>
+    <option value="Low" {% if priority_filter == 'Low' %}selected{% endif %}>Low</option>
+    <option value="Lowest" {% if priority_filter == 'Lowest' %}selected{% endif %}>Lowest</option>
+    </select>
+
+    Status:
+    <select name="status_filter">
+    <option value="all">All</option>
+    <option value="Closed" {% if status_filter == 'Closed' %}selected{% endif %}>Closed</option>
+    <option value="Needs Triage" {% if status_filter == 'Needs Triage' %}selected{% endif %}>Needs Triage</option>
+    <option value="Long Term Backlog" {% if status_filter == 'Long Term Backlog' %}selected{% endif %}>Long Term Backlog</option>
+    <option value="Gathering Impact" {% if status_filter == 'Gathering Impact' %}selected{% endif %}>Gathering Impact</option>
+    <option value="To Do" {% if status_filter == 'To Do' %}selected{% endif %}>To Do</option>
+    <option value="In Progress" {% if status_filter == 'In Progress' %}selected{% endif %}>In Progress</option>
+    <option value="Code review" {% if status_filter == 'Code review' %}selected{% endif %}>Code review</option>
+    <option value="READY FOR QA" {% if status_filter == 'READY FOR QA' %}selected{% endif %}>Ready for QA</option>
+    <option value="QA REVIEW" {% if status_filter == 'QA REVIEW' %}selected{% endif %}>QA Review</option>
+    <option value="Done" {% if status_filter == 'Done' %}selected{% endif %}>Done</option>
+    <option value="BLOCKED" {% if status_filter == 'BLOCKED' %}selected{% endif %}>Blocked</option>
+    </select>
+
+    <input type="submit" value="Search">
+
+    Order:
+    <select name="sort_order">
+    <option value="desc" {% if sort_order == 'desc' %}selected{% endif %}>Descending (Z-A)</option>
+    <option value="asc" {% if sort_order == 'asc' %}selected{% endif %}>Ascending (A-Z)</option>
+    </select>
+</form>
+
+<hr>
+
+<h3>📤 Add new file CSV to the database </h3>
+
+<form method="post" action="/upload" enctype="multipart/form-data">
+    <input type="file" name="file" accept=".csv" required>
+    <input type="submit" value="Upload CSV">
+</form>
+
+{% if error %}
+    <div class="error">❌ Error: {{ error }}</div>
+{% endif %}
+
+{% if results %}
+
+<table>
+<tr>
+    <th>#</th>
+    <th>Bug ID</th>
+    <th>Summary</th>
+    <th>Priority</th>
+    <th>Status</th>
+    <th>Resolution</th>
+    <th>Created At</th>
+    <th>Resolved At</th>
+    <th>Sentiment</th>
+    <th>Score</th>
+    <th>Description</th>
+</tr>
+
+{% for bug in results %}
+<tr class="{% if (bug.priority == 'Highest' or bug.priority == 'High') and bug.sentiment_score < -0.3 %}hot-bug-row{% endif %}">
+    <td>{{ loop.index }}</td>
+    <td>{{ bug.bug_id }}</td>
+    <td>{{ bug.summary }}</td>
+    <td>{{ bug.priority }}</td>
+    <td>{{ bug.status }}</td>
+    <td>{{ bug.resolution if bug.resolution else "N/A" }}</td>
+    <td>{{ bug.created_at if bug.created_at else "N/A" }}</td>
+    <td>{{ bug.resolved_at if bug.resolved_at else "N/A" }}</td>
+    <td>{{ "%.2f"|format(bug.sentiment_score) if bug.sentiment_score is not none else "0.00" }}</td>
+
+    <td class="
+        {% if bug.score > 1.1 or bug.score < -1.1 %}
+            /* brak klasy */
+        {% elif bug.score >= 0.85 %}score-very-high
+        {% elif bug.score >= 0.75 %}score-high
+        {% elif bug.score >= 0.65 %}score-medium
+        {% elif bug.score >= 0.55 %}score-low
+        {% else %}score-very-low{% endif %}
+    ">
+        {% if bug.score > 1.1 or bug.score < -1.1 %}
+            N/A
+        {% else %}
+            {{ "%.4f"|format(bug.score) }}
+        {% endif %}
+    </td>
+
+    <td>
+        <div style="max-width: 300px; max-height: 50px; overflow: hidden; text-overflow: ellipsis; font-size: 0.85em;"
+             title="{{ bug.description }}">
+            {{ bug.description if bug.description else "No description" }}
+        </div>
+    </td>
+</tr>
+{% endfor %}
+</table>
+
+{% endif %}
+
+</body>
+</html>
