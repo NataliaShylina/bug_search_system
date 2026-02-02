@@ -66,6 +66,7 @@ dim = embeddings.shape[1]
 index = faiss.IndexFlatIP(dim)  # cosinus po normalizacji
 index.add(embeddings)
 faiss.write_index(index, INDEX_PATH)
+print("FAISS ntotal:", index.ntotal)
 
 # Zapis metadanych (mapowanie indeks → bug)
 meta_columns = [
@@ -79,3 +80,15 @@ df[meta_columns].to_csv(META_PATH, index=False)
 print("Indeks FAISS zapisany:", INDEX_PATH)
 print("Metadane zapisane:", META_PATH)
 print("FAISS index gotowy")
+
+import time
+
+query = "crash when saving file"
+q_emb = model.encode([query]).astype("float32")
+faiss.normalize_L2(q_emb)
+
+start = time.time()
+D, I = index.search(q_emb, k=10)
+end = time.time()
+
+print("Czas wyszukiwania:", (end - start) * 1000, "ms")
